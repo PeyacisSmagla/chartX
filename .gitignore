@@ -1,0 +1,20 @@
+# Root-level ignores
+node_modules/
+.env
+.env.local
+dist/
+.DS_Store
+*.log
+
+# Ignore frontend build and cache
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# Ignore backend build and cache
+backend/dist/
+backend/node_modules/
+
+# OS/System files
+Thumbs.db
+*.swp
